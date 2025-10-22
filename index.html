@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquries.css">
     <title>Pärmar & Poesi</title>
 </head>
 <body>
-    <header>
-        <a href="index.html"><img class="logoimg" src="social-media-icons/logo.jpg" alt="Logo"></a>
+    <header class="header">
+        <a href="index.html"><img class="logoimg" src="social-media-icons/logo.png" alt="Logo"></a>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger"> 
+            ☰ 
+        </label>
         <ul class="navheader">
             <li><a class="btn btnprimary" href="index.html">Hem</a></li>
             <li><a class="btn btnprimary" href="aboutus.html">Om Oss </a></li>
             <li><a class="btn btnsecondary" href="books.html">Böcker</a></li>
             <li><a class="btn btnprimary" href="contactus.html">Kontakt Oss</a></li>
+            <li><a class="btn btnteritary" href="events.html">Evenemang</a></li>
         </ul>
     </header>
     <main>
@@ -38,17 +44,6 @@
         <p>Mån-Tör:10-18,<br>Fri:11-20, <br>Lör:11-15 <br><span class="holiday">Sön:Closed</span></p>
        </section>
     </main>
-    <section class="CTA">
-        <h4>Meny</h4>
-         <ul class="ullist">
-            <li><a class="btn btnprimary" href="index.html"> <img class="logoimg" src="social-media-icons/logo.jpg" alt="Logo"> Hem</a></li>
-            <li><a class="btn btnsecondary" href="login.html">Logga in </a></li>
-            <li><a class="btn btnsecondary" href="register.html">Register</a></li>
-            <li><a class="btn btnteritary" href="events.html">Evenemang</a></li>
-            <li><a class="btn btnsecondary" href="books.html">Böcker</a></li>
-            <li><a class="btn btnprimary" href="contactus.html">Kontakt Oss</a></li>
-        </ul>   
-    </section>
     <footer>
         <ul class="Socialmedia">
             <li><a href="https://www.facebook.com"><img class="socialimg" src="social-media-icons/facebook.svg" alt="Facebook"></a></li>

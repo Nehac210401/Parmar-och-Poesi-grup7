@@ -60,8 +60,7 @@ ul {
 /* -------------------- LAYOUT SECTIONS -------------------- */
 .Intro,
 .Eventsection,
-.Informationsection,
-.CTA {
+.Informationsection {
     margin-bottom: 300px;
     text-align: center;
 }
@@ -86,33 +85,28 @@ footer {
 header {
     display: flex;
     flex-direction: row;
+    flex-wrap:wrap-reverse;
     background-color: #ffb09c;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-evenly;
     padding: 15px;
+    max-width: 3000px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .navheader {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    list-style: none;
 }
-
-/* -------------------- CTA SECTION -------------------- */
-.CTA {
-    background-color: #ffb09c;
-    text-align: center;
-    padding: 100px 50px;
-    border-radius: 30px;
-    margin: 0 auto;
-    line-height: 0px;
+#menu-toggle{
+    display: none;
 }
-
-.ullist {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: center;
+.hamburger{
+    display: none;
+    cursor: pointer;
 }
 
 /* -------------------- EVENT SECTION -------------------- */
@@ -121,7 +115,12 @@ header {
     flex-direction: row;
     gap: 10px;
     background-color: #ffb09c;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    max-width: 2000px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 /* -------------------- BUTTONS -------------------- */
@@ -179,3 +178,4 @@ header {
     width: 20px;
     text-align: center;
 }
+

@@ -1,11 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About us</title>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>poesiochparmar/about_us</title>
+     <link rel="stylesheet" href="styles/style.css">
+     <script src="http://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
 <body>
-    <h1>About Us</h1>
+     <header>
+        <a href="index.html"><img class="logoimg" src="social-media-icons/logo.jpg" alt="Logo"></a>
+        <ul class="navheader">
+            <li><a class="btn btnprimary" href="index.html">Hem</a></li>
+            <li><a class="btn btnprimary" href="aboutus.html">Om Oss </a></li>
+            <li><a class="btn btnsecondary" href="books.html">Böcker</a></li>
+            <li><a class="btn btnprimary" href="contactus.html">Kontakt Oss</a></li>
+        </ul>
+    </header>
+     <!-- tailwind textsektion -->
+     <p class="mx-20 my-20 rounded font-sans roboto text-2xl text-center bg-gray-200">Vi är ett härligt litet gäng som har mycket
+          gemensamt,
+          men en sak brinner starkare än annat - böcker böcker böcker!</p>
+
+          <p class="intro-text">Hos Pärmar och Poesi i Frölunda arbetar ett litet men passionerat team som delar en gemensam kärlek till litteraturen
+                i alla dess former. Här möts människor som inte bara läser böcker – de lever dem. Varje medlem i 
+                teamet bär på sin egen historia om hur böcker format deras liv, och tillsammans bildar de en gemenskap 
+                som ständigt inspirerar varandra att upptäcka, diskutera och dela nya berättelser. <br>
+                <br>
+
+               Personerna bakom Pärmar och Poesi ser böcker som mer än bara ord på papper. För dem är en bok en resa, en vän och ibland till 
+               och med en spegel av själen. Det är därför ingen slump att de som arbetar här alltid har en bok nära till hands – vare 
+               sig det är en klassiker, en ny roman eller en dold pärla från ett litet förlag. <br>
+               <br>
+               Teamet drivs av nyfikenhet och en vilja att förmedla den känsla som bara en riktigt bra bok kan ge. De älskar att prata
+               om litteratur, tipsa om sina favoriter och hjälpa andra att hitta just den bok som träffar rätt i hjärtat. Varje dag 
+               handlar om att sprida läsglädje och skapa möten mellan människor och berättelser. <br>
+               Välkommen till Frölunda - Välkommen till Pärmar och Poesi!
+               
+             
+          </p>
+
+     <!-- länkade bilder från randomuser som jobbar på Pärmar och Poesi -->
+
+     <main class="flex-container">
+          <section class="flex-text">
+               <img class="flex-bild" src="https://randomuser.me/portraits/women/54.jpg"
+                    style="width: 300px; height: auto;" alt="kvinna som ler med rött lockigt hår">
+               <h2><b>Mrs Förnamn Efternamnsson</b></h2>
+               <p>Jag är nyfiken och älskar att läsa, alltid försjunken i berättelser och drömmande om nya världar. Jag
+                    är fantasifull, reflekterande och passionerad när
+                    det gäller böcker, samtidigt analytisk och kritisk. Jag är tålmodig, ordälskare och kreativ,
+                    ständigt kunskapstörstig och uppslukad av litteratur.
+                    Det är extra roligt när alla här på Pärmar och Poesi är likasinnade</p>
+          </section>
+
+          <section class="flex-text">
+               <img class="flex-bild" src="https://randomuser.me/portraits/women/55.jpg"
+                    style="width: 300px; height: auto;" alt="kvinna som ler med blont hår">
+               <h2><b>Mrs Förnamn Efternamnsson</b></h2>
+               <p>Jag älskar böcker och försjunker gärna i berättelser som tar mig till nya världar. Jag är nyfiken,
+                    reflekterande och fantasifull, alltid hungrig på kunskap. 
+                    Böcker gör mig både insiktsfull och kreativ. Jag är helt enkelt en riktig litteraturälskare. Jag älskar
+                    varje dag på Pärmar och Poesi!</p>
+          </section>
+
+          <section class="flex-text">
+               <img class="flex-bild" src="https://randomuser.me/portraits/men/61.jpg"
+                    style="width: 300px; height: auto;" alt="man i mörkt kort hår som ler">
+               <h2><b>Mr Förnamn Efternamnsson</b></h2>     
+               <p>Hej! Jag är en bokälskare som alltid har näsan i en roman eller novell. Jag njuter av att upptäcka nya
+                    berättelser, drömma mig bort i fantasivärldar
+                    och lära mig något nytt varje dag. För mig är böcker både inspiration, äventyr och en stund av lugn
+                    i vardagen.</p>
+          </section>
+          <section class="flex-text">
+               <img class="flex-bild" src="https://randomuser.me/portraits/men/40.jpg"
+                    style="width: 300px; height: auto;" alt="man som ler klädd i hatt">
+               <h2><b>Mr Förnamn Efternamnsson</b></h2>
+               <p>Jag är en passionerad läsare som älskar att försvinna i böckernas värld. Varje bok, varje poesi är ett äventyr som
+                    väcker fantasin, ger nya perspektiv och
+                    inspirerar mig i vardagen. Att läsa är för mig både nöje, lärande och en källa till kreativitet.</p>
+          </section>
+     </main>
+
+<hr>
+     <p class="font-sans roboto text-4xl font-medium text-center bg-red-300 ">Galleri</p>
+<hr>
+<br>
+     <!-- galleri längre ner på sidan -->
+     <section class="galleri">
+          <img width="300px" src="bilder/bild1.jpg" alt="Bild på ett ark med poesi">
+          <img width="300px" src="bilder/bild2.jpg" alt="Bild på två poesiböcker och en kopp kaffe">
+          <img width="300px" src="bilder/bild3.jpg" alt="Bild på pärmar i ett skåp">
+          <img width="300px" src="bilder/bild4.jpg" alt="Bild på en öppen bok med en kvist liggandes på">
+          <img width="300px" src="bilder/bild5.jpg" alt="Bild på en pärm med text Top secret files">
+          <img width="300px" src="bilder/bild6.jpg" alt="Bild på en öppen bok med en ljusslinga mellan bladen">
+          <img width="300px" src="bilder/bild7.jpg" alt="Bild på en öppen bok och en penna som ligger på">
+          <img width="300px" src="bilder/bild8.jpg"
+               alt="Bild på person som håller i en öppen bok med höstlöv på marken under">
+          <img width="300px" src="bilder/bild9.jpg" alt="Bild på kvinna som letar bland akter och pärmar i hylla">
+          <img width="300px" src="bilder/bild10.jpg" alt="närbild på en öppen bok som är skriven i skrivstil">
+          <img width="300px" src="bilder/bild11.jpg" alt="Bild på pärmar i bunt med snöre runt">
+          <img width="300px" src="bilder/bild12.jpg" alt="Bild på två böcker, en blomma och en kopp utomhus">
+          <img width="300px" src="bilder/bild13.jpg" alt="Bild på bokryggar i hylla, böckernas är sorterade efter höjd">
+          <img width="300px" src="bilder/bild14.jpg" alt="Bild på en man som tittar i en pärm">
+          <img width="300px" src="bilder/bild15.jpg" alt="Bild på två öppna böcker, blommor och en kopp på ett bord">
+          <img width="300px" src="bilder/bild16.jpg"
+               alt="Bild på en öppen bok med bokens sidor utspridda likt en fjäder">
+          <img width="300px" src="bilder/bild17.jpg" alt="Bild på person som läser med cigarett i hand">
+          <img width="300px" src="bilder/bild18.jpg" alt="Bild på en öppen bok med liten yta i fokus">
+          <img width="300px" src="bilder/bild19.jpg" alt="Bild på bokhylla fylld med böcker">
+          <img width="300px" src="bilder/bild20.jpg" alt="Bild på väggtext inne på café med café-relaterade ord">
+          <img width="300px" src="bilder/bild10.jpg" alt="närbild på en öppen bok som är skriven i skrivstil">
+          <img width="300px" src="bilder/bild21.jpg" alt="Bild på pärmar i bunt med snöre runt">
+          <img width="300px" src="bilder/bild22.jpg" alt="Bild på två böcker, en blomma och en kopp utomhus">
+          <img width="300px" src="bilder/bild23.jpg" alt="Bild på bokryggar i hylla, böckernas är sorterade efter höjd">
+          <img width="300px" src="bilder/bild24.jpg" alt="Bild på en man som tittar i en pärm">
+          <img width="300px" src="bilder/bild25.jpg" alt="Bild på två öppna böcker, blommor och en kopp på ett bord">
+          <img width="300px" src="bilder/bild26.jpg"
+               alt="Bild på en öppen bok med bokens sidor utspridda likt en fjäder">
+     </section>
+   
+ <footer>
+        <ul class="Socialmedia">
+            <li><a href="https://www.facebook.com"><img class="socialimg" src="social-media-icons/facebook.svg" alt="Facebook"></a></li>
+            <li><a href="https://www.instagram.com"><img class="socialimg" src="social-media-icons/instagram.svg" alt=¨Instagram¨></a></li>
+            <li><a href="https://www.X.com"><img class="socialimg" src="social-media-icons/x.jpg" alt=¨X¨></a></li>
+            <li><a href="https://www.linkedin.com"><img class="socialimg" src="social-media-icons/linkedin.svg" alt=¨Linkedin¨></a></li>
+        </ul>
+        <p><b>En plats åt Bokälskare!</b></p>
+    </footer>
+
 </body>
+
 </html>

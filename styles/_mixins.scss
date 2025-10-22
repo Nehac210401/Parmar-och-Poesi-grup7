@@ -1,0 +1,11 @@
+@use "variables" as *;
+
+@mixin element-ram {
+    border: solid 6px $element-color;
+    border-radius: 20px;
+}
+@mixin standard-font {
+    font-family: cursive, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}

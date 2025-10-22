@@ -1,0 +1,35 @@
+@media(max-width:1024px){
+   header{
+    padding: 10px;
+    flex-flow: wrap;
+   }
+   .navheader{
+    gap:10px;
+   }
+}
+@media(max-width:768px){
+  #menu-toggle{
+    display: none;
+  }
+  .hamburger{
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    user-select: auto;
+  }
+  .navheader{
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+  }
+  #menu-toggle:checked, .navheader{
+    display: flex;
+  }
+.Intro, .Eventsection, .Informationsection {
+    margin-bottom: 100px;
+    text-align: center;
+}
+.logoimg {
+    width: 60px;
+}
+}

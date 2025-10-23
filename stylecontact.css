@@ -48,9 +48,9 @@
     }
 
     .submit-btn {
-      background-color: rgb(255, 232, 239);
-      color: rgb(182, 79, 127);
-      border: 2px solid #fbc1db;
+      background-color: rgba(255, 233, 243, 0.95);
+      color: rgb(197, 80, 137);
+      border: 2px solid #ea8cb3;
       font-weight: bold;
       padding: 12px 20px;
       border-radius: 10px;

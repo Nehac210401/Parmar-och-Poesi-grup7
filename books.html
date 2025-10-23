@@ -1,11 +1,123 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>List of Books</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link href="./output.css" rel="stylesheet">
+
+  
 </head>
 <body>
-    <h1>List of Books</h1>
+<main class="max-w-6xl mx-auto px-4 py-10">
+  <h1 class="text-3xl font-bold tracking-tight mb-8 ">Pärmar & poesi</h1>
+  <h2 class="text-xl mb-8">Mina mest sålda böcker</h2>
+
+  <!-- Responsiv grid: 1 kolumn mobil, 2 på små skärmar, 3 på stora -->
+  <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+    <!-- 1: Tiden vi glömde -->
+    <article class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+      <!-- Byt filnamn till din riktiga bild i /bilder -->
+      <img src="bilder/bild1.jpg" alt="Omslag: Tiden vi glömde" class="w-full h-40 object-cover">
+      <div class="p-5 flex flex-col gap-3">
+        <div class="flex items-center gap-2">
+          <span class="inline-flex items-center rounded-full bg-amber-50 text-amber-700 px-2.5 py-1 text-xs font-medium border border-amber-100">Historisk</span>
+        </div>
+        <h3 class="text-lg font-semibold leading-snug">Tiden vi glömde</h3>
+        <p class="text-sm text-gray-500">av Johan West</p>
+        <p class="text-sm text-gray-600 line-clamp-3">Två generationer under 1900-talets Sverige. En berättelse om mod, tystnad och förlåtelse genom brev och minnen.</p>
+        <div class="mt-1 flex items-center justify-between">
+          <span class="text-base font-semibold">249 kr</span>
+          <button class="px-3 py-1.5 text-sm rounded-lg bg-gray-900 text-white hover:bg-gray-800">Läs mer</button>
+        </div>
+      </div>
+    </article>
+
+    <!-- 2: En kopp kaffe med framtiden -->
+    <article class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+      <img src="bilder/bild1.jpg" alt="Omslag: En kopp kaffe med framtiden" class="w-full h-40 object-cover">
+      <div class="p-5 flex flex-col gap-3">
+        <div class="flex items-center gap-2">
+          <span class="inline-flex items-center rounded-full bg-cyan-50 text-cyan-700 px-2.5 py-1 text-xs font-medium border border-cyan-100">Feelgood</span>
+        </div>
+        <h3 class="text-lg font-semibold leading-snug">En kopp kaffe med framtiden</h3>
+        <p class="text-sm text-gray-500">av Nora Dahl</p>
+        <p class="text-sm text-gray-600 line-clamp-3">Korta berättelser om möten på caféer där varje kopp blir en chans till förändring. Varm, lättläst och hoppfull.</p>
+        <div class="mt-1 flex items-center justify-between">
+          <span class="text-base font-semibold">159 kr</span>
+          <button class="px-3 py-1.5 text-sm rounded-lg bg-gray-900 text-white hover:bg-gray-800">Läs mer</button>
+        </div>
+      </div>
+    </article>
+
+    <!-- 3: Stjärnornas arkiv -->
+    <article class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+      <img src="bilder/bild1.jpg" alt="Omslag: Stjärnornas arkiv" class="w-full h-40 object-cover">
+      <div class="p-5 flex flex-col gap-3">
+        <div class="flex items-center gap-2">
+          <span class="inline-flex items-center rounded-full bg-indigo-50 text-indigo-700 px-2.5 py-1 text-xs font-medium border border-indigo-100">Science fiction</span>
+        </div>
+        <h3 class="text-lg font-semibold leading-snug">Stjärnornas arkiv</h3>
+        <p class="text-sm text-gray-500">av Elias Holm</p>
+        <p class="text-sm text-gray-600 line-clamp-3">En ung forskare hittar en hemlig rymdstation som gömmer sanningen om mänsklighetens ursprung.</p>
+        <div class="mt-1 flex items-center justify-between">
+          <span class="text-base font-semibold">219 kr</span>
+          <button class="px-3 py-1.5 text-sm rounded-lg bg-gray-900 text-white hover:bg-gray-800">Läs mer</button>
+        </div>
+      </div>
+    </article>
+
+    <!-- 4: Tankarnas spegel -->
+    <article class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+      <img src="bilder/bild1.jpg" alt="Omslag: Tankarnas spegel" class="w-full h-40 object-cover">
+      <div class="p-5 flex flex-col gap-3">
+        <div class="flex items-center gap-2">
+          <span class="inline-flex items-center rounded-full bg-rose-50 text-rose-700 px-2.5 py-1 text-xs font-medium border border-rose-100">Psykologisk roman</span>
+        </div>
+        <h3 class="text-lg font-semibold leading-snug">Tankarnas spegel</h3>
+        <p class="text-sm text-gray-500">av Sara Ekström</p>
+        <p class="text-sm text-gray-600 line-clamp-3">Ett djupt porträtt av en kvinna som försöker minnas vem hon är efter en olycka – en resa genom drömmar och minnen.</p>
+        <div class="mt-1 flex items-center justify-between">
+          <span class="text-base font-semibold">189 kr</span>
+          <button class="px-3 py-1.5 text-sm rounded-lg bg-gray-900 text-white hover:bg-gray-800">Läs mer</button>
+        </div>
+      </div>
+    </article>
+
+    <!-- 5: Skogen som viskade mitt namn -->
+    <article class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+      <img src="bilder/bild1.jpg" alt="Omslag: Skogen som viskade mitt namn" class="w-full h-40 object-cover">
+      <div class="p-5 flex flex-col gap-3">
+        <div class="flex items-center gap-2">
+          <span class="inline-flex items-center rounded-full bg-emerald-50 text-emerald-700 px-2.5 py-1 text-xs font-medium border border-emerald-100">Thriller</span>
+        </div>
+        <h3 class="text-lg font-semibold leading-snug">Skogen som viskade mitt namn</h3>
+        <p class="text-sm text-gray-500">av Lina Berg</p>
+        <p class="text-sm text-gray-600 line-clamp-3">En journalist återvänder till sin barndomsby och dras in i ett nät av försvinnanden och gamla hemligheter.</p>
+        <div class="mt-1 flex items-center justify-between">
+          <span class="text-base font-semibold">249 kr</span>
+          <button class="px-3 py-1.5 text-sm rounded-lg bg-gray-900 text-white hover:bg-gray-800">Läs mer</button>
+        </div>
+      </div>
+    </article>
+
+  </section>
+</main>
+
+
+<!-- Footer -->
+<footer class="border-t border-gray-200">
+<div class="max-w-6xl mx-auto px-4 py-10 text-sm text-gray-500 flex flex-col sm:flex-row items-center justify-between gap-3">
+<p>© 2025 Pärmar och poesi. Alla rättigheter förbehållna.</p>
+<div class="flex items-center gap-4">
+<a href="#" class="hover:text-gray-700">Hem</a>
+<a href="#" class="hover:text-gray-700">Kontakt</a>
+<a href="#" class="hover:text-gray-700">Om-oss</a>
+<a href="#" class="hover:text-gray-700">Böcker</a>
+
+</div>
+</div>
+</footer>
+</div>
 </body>
 </html>

@@ -3,6 +3,8 @@
 @mixin element-ram {
     border: solid 6px $element-color;
     border-radius: 20px;
+    background-color: rgb(255, 224, 229);
+
 }
 @mixin standard-font {
     font-family: cursive, sans-serif;

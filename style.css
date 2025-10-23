@@ -107,13 +107,6 @@ header {
     gap: 10px;
     list-style: none;
 }
-#menu-toggle{
-    display: none;
-}
-.hamburger{
-    display: none;
-    cursor: pointer;
-}
 
 /* -------------------- EVENT SECTION -------------------- */
 .eventul {

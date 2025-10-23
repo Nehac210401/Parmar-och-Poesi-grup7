@@ -16,17 +16,20 @@
 </head>
 <body class="flex flex-col items-center justify-center min-h-screen">
 
-  <header class="text-center mt-10">
-    <a href="index.html">
-      <img src="social media icons/Pärmar & Poesi.jpg" alt="Logo" width="100px" class="mx-auto mb-4">
-    </a>
-    <ul class="flex flex-wrap justify-center gap-4 mb-8">
-      <li><a class="btnprimary" href="index.html">Hem</a></li>
-      <li><a class="btnprimary" href="aboutus.html">Om Oss</a></li>
-      <li><a class="btnprimary" href="books.html">Böcker</a></li>
-      <li><a class="btnprimary" href="contactus.html">Kontakt Oss</a></li>
-    </ul>
-  </header>
+  <header class="header">
+        <a href="index.html"><img class="logoimg" src="bilder/logo.png" alt="Logo"></a>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger"> 
+            ☰ 
+        </label>
+        <ul class="navheader">
+            <li><a class="btn btnprimary" href="index.html">Hem</a></li>
+            <li><a class="btn btnprimary" href="aboutus.html">Om Oss </a></li>
+            <li><a class="btn btnsecondary" href="books.html">Böcker</a></li>
+            <li><a class="btn btnprimary" href="contactus.html">Kontakt Oss</a></li>
+            <li><a class="btn btnteritary" href="events.html">Evenemang</a></li>
+        </ul>
+    </header>
 
   <main class="w-full flex flex-col items-center">
     <section class="contact-form">

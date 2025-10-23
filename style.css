@@ -46,6 +46,9 @@ p {
     font-size: 20px;
     margin-bottom: 20px;
 }
+b {
+    color: rgb(47, 1, 9);
+}
 
 a {
     font-size: 16px;

@@ -146,23 +146,20 @@ header {
 /* Hover Effects */
 .btnprimary:hover,
 .btnprimary:active {
-    color: #900000;
-    background-color: #ffb09c;
-    border: 2px solid black;
+    color: #fceaea;
+    background-color: #a05f4df0;
 }
 
 .btnsecondary:hover,
 .btnsecondary:active {
-    color: #ee2400;
-    background-color: #ffb09c;
-    border: 2px solid black;
+    color: #fceaea;
+    background-color: #a05f4df0;
 }
 
 .btnteritary:hover,
 .btnteritary:active {
-    color: #ee2400;
-    background-color: #ffb09c;
-    border: 2px solid black;
+    color: #fceaea;
+    background-color: #a05f4df0;
 }
 
 /* -------------------- IMAGES -------------------- */

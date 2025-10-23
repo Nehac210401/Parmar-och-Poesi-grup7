@@ -19,7 +19,7 @@ h1, h2, h3, h4 {
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: -2px;
-    color: coral;
+    color: rgb(206, 49, 28);
 }
 
 h1 {
@@ -51,6 +51,7 @@ a {
     font-size: 16px;
     text-decoration: none;
     display: flex;
+    color: rgb(59, 26, 26);
 }
 
 ul {
@@ -86,7 +87,8 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap:wrap-reverse;
-    background-color: #ffb09c;
+    background-color: #f3c0c0;
+    border: 1px solid #efc0ce;
     align-items: center;
     justify-content:space-evenly;
     padding: 15px;
@@ -147,19 +149,19 @@ header {
 .btnprimary:hover,
 .btnprimary:active {
     color: #fceaea;
-    background-color: #a05f4df0;
+    background-color: #a05f4db1;
 }
 
 .btnsecondary:hover,
 .btnsecondary:active {
     color: #fceaea;
-    background-color: #a05f4df0;
+    background-color: #a05f4db1;
 }
 
 .btnteritary:hover,
 .btnteritary:active {
     color: #fceaea;
-    background-color: #a05f4df0;
+    background-color: #a05f4db1;
 }
 
 /* -------------------- IMAGES -------------------- */

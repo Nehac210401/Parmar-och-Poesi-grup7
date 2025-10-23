@@ -8,22 +8,10 @@
    }
 }
 @media(max-width:768px){
-  #menu-toggle{
-    display: none;
-  }
-  .hamburger{
-    font-size: 16px;
-    cursor: pointer;
-    display: block;
-    user-select: auto;
-  }
   .navheader{
     display: none;
     flex-direction: column;
     padding: 10px;
-  }
-  #menu-toggle:checked, .navheader{
-    display: flex;
   }
 .Intro, .Eventsection, .Informationsection {
     margin-bottom: 100px;

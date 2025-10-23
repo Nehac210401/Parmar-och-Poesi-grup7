@@ -91,7 +91,8 @@ header {
     flex-direction: row;
     flex-wrap:wrap-reverse;
     background-color: #f3c0c0;
-    border: 1px solid #efc0ce;
+    border: 2px solid #f1becdb1;
+    box-shadow: 0 4px 10px rgba(232, 138, 138, 0.329);
     align-items: center;
     justify-content:space-evenly;
     padding: 15px;
@@ -153,19 +154,22 @@ header {
 .btnprimary:hover,
 .btnprimary:active {
     color: #fceaea;
-    background-color: #a05f4db1;
+    background-color: #c56471a7;
+    box-shadow: 0 4px 10px rgba(174, 101, 101, 0.422);
 }
 
 .btnsecondary:hover,
 .btnsecondary:active {
     color: #fceaea;
-    background-color: #a05f4db1;
+    background-color: #c56471a7;
+    box-shadow: 0 4px 10px rgba(174, 101, 101, 0.422);
 }
 
 .btnteritary:hover,
 .btnteritary:active {
     color: #fceaea;
-    background-color: #a05f4db1;
+    background-color: #c56471a7;
+    box-shadow: 0 4px 10px rgba(174, 101, 101, 0.422);
 }
 
 /* -------------------- IMAGES -------------------- */

@@ -190,3 +190,9 @@ header {
 main {
     background-color: rgb(255, 253, 251);
 }
+
+/* -------------------- SUPER SECRET -------------------- */
+
+.secretheading {
+    display: none;
+}

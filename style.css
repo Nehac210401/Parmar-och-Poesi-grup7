@@ -71,13 +71,18 @@ ul {
 
 footer {
     text-align: center;
+    background-color: #f3c0c0cb;
+    border-top: 2px solid #f1becdb1;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
 }
 .Socialmedia{
     display: flex;
     justify-content: center;
     flex-direction: row;
     gap: 10px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -113,8 +118,9 @@ header {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    background-color: #f3c0c0;
+    background-color: #f3c0c0c6;
     border: 1px solid #efc0ce;
+    border-radius: 0.5rem;
     justify-content: space-evenly;
     align-items: center;
     padding: 15px;
@@ -179,3 +185,8 @@ header {
     text-align: center;
 }
 
+/* -------------------- GENERAL -------------------- */
+
+main {
+    background-color: rgb(255, 253, 251);
+}
